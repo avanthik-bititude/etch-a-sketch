@@ -11,6 +11,6 @@ function createGrid(row) {
 }
 
 function readInput() {
-  const grid = prompt("Number of grids");
+  const grid = prompt("Number of grids Lessthan 100");
   createGrid(parseInt(grid));
 }
