@@ -1,0 +1,20 @@
+body {
+    background-color: #a8a3a3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.square:hover {
+    background-color: #064904;
+}
